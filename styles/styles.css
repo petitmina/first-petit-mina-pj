@@ -1,0 +1,37 @@
+header{
+    background-color: #73dd68;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header h1 {
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+
+#menu {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    list-style: none;
+    text-decoration-line: none;
+}
+
+#menu a{
+    text-decoration: none;
+    width: 10px;
+    height: 3px;
+    padding: 10px;
+    border-radius: 3px;
+    color: #fbf6f6;
+    background-color: #c91515;
+}
+
+#menu a:hover{
+    text-decoration: solid;
+
+}
