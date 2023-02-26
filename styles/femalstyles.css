@@ -8,8 +8,8 @@ header{
     justify-content: space-between;
     color: blueviolet;
     background-color: rgb(213, 232, 176);
-    height: 100%;
-    width: 100%;
+    /* height: 100%;
+    width: 100%; */
     margin: 0 auto;
     padding: 20px;
     font-size: 20px;
@@ -23,7 +23,11 @@ header p {
     margin-left: 40px;
 }
 
-header p:hover{
+header p a {
+    text-decoration: none;
+}
+
+header p a:hover{
     cursor: pointer;
 }
 
@@ -37,80 +41,29 @@ header p:hover{
     margin: 20px ;
     padding: 3px;
     text-align: center; 
-    
 }
 
 #menu-list a:hover {
+    background-color: #a1d9f7;
+    border-radius: 5px;
     color: palevioletred;
     cursor: pointer;
     /* text-decoration: solid; */
 }
 
-#image-icon{
+#menu-icon{
     text-align: right;
     margin-top: 20px;
     margin-right: 40px;
 }
 
-#image-icon a {
+#menu-icon a {
     margin: 15px;
-
 }
 
-#image-icon a:hover{
+#menu-icon a:hover{
     background-color: #a1d9f7;
     border-radius: 5px;
     color: palevioletred;
     cursor: pointer;
 }
-
-/* main p{
-
-} */
-
-main p img{
-    width: 100%;
-    padding: 40px;
-    
-}
-/* body {
-    background-color: blue;
-    height: 2px;
-} */
-
-/* header{
-    background-color: #73dd68;
-    margin: 0 auto;
-    padding: 0;
-}
-
-header h1 {
-    margin: 0 auto;
-    padding: 30px;
-    text-align: center;
-}
-
-#menu {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    list-style: none;
-    text-decoration-line: none;
-}
-
-#menu a{
-    text-decoration: none;
-    width: 10px;
-    height: 3px;
-    padding: 10px;
-    border-radius: 3px;
-    color: #fbf6f6;
-    background-color: #c91515;
-}
-
-#menu a:hover{
-    text-decoration: solid;
-
-} */
