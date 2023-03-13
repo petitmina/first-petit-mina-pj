@@ -24,6 +24,9 @@ header p {
 }
 
 header p:hover{
+    background-color: #a1d9f7;
+    border-radius: 5px;
+    color: palevioletred;
     cursor: pointer;
 }
 
@@ -34,6 +37,7 @@ header p:hover{
 
 #menu-list a {
     text-decoration: none;
+    color: blueviolet;
     margin: 20px ;
     padding: 3px;
     text-align: center; 
@@ -41,9 +45,10 @@ header p:hover{
 }
 
 #menu-list a:hover {
+    background-color: #a1d9f7;
+    border-radius: 5px;
     color: palevioletred;
     cursor: pointer;
-    /* text-decoration: solid; */
 }
 
 #image-icon{
@@ -53,6 +58,7 @@ header p:hover{
 }
 
 #image-icon a {
+    color: blueviolet;
     margin: 15px;
 
 }
@@ -73,6 +79,18 @@ main p img{
     padding: 40px;
     
 }
+
+footer{
+    margin: 0;
+    padding: 20px;
+    background-color: ivory;
+    display: flex;
+    justify-content: space-between;
+    color: aquamarine;
+    font-weight: bold;
+}
+
+
 /* body {
     background-color: blue;
     height: 2px;

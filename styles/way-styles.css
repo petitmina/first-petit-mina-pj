@@ -59,32 +59,8 @@ header p a:hover {
     cursor: pointer;
 }
 
-main{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px;
-    padding: 10px;
-}
-
-.card {
-    margin: 10px;
-}
-
-.card-text{
-    text-align: center;
-}
-
-.center {
-    text-align: center;
-}
-
-footer{
-    margin: 0;
-    padding: 20px;
-    background-color: ivory;
-    display: flex;
-    justify-content: space-between;
-    color: aquamarine;
-    font-weight: bold;
+main {
+    position: relative; 
+    left: 35%;
+    bottom: -50px;
 }
